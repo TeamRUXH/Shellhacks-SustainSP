@@ -4,7 +4,6 @@ from src import trends
 app = Flask(__name__)
 
 # Routes for the server
-
 ''' 
 @TODO
 Need a route for getting a list of top `pageSize` sustainable companies.
@@ -31,3 +30,4 @@ def getTrends():
     result = trends.getTrends(company_tickers)
     return jsonify(result)
     # return jsonify(company_tickers)
+
