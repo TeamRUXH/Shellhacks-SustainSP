@@ -15,7 +15,6 @@ def performSentimentalAnalysis(company_name = ''):
     params = {
         "q": "" + company_name + " AND (stock OR market OR shares)",
         "apiKey": api_key,
-        # "sources": ",".join(['australian-financial-review', 'financial-post']),
         "searchIn": 'title',
         "pageSize": 10
     }

@@ -2,6 +2,7 @@ import yfinance as yf
 import pandas as pd
 import time
 from pytrends.request import TrendReq
+import json
 
 def getCompanyNameFromTicker(ticker):
     company = yf.Ticker(ticker)
@@ -24,12 +25,10 @@ def getTrends(company_list, tf='today 12-m'):
         monthly_mean = df.resample('M').mean()
         return monthly_mean
 
-
     dataframes = map(getDF, batches)
     concatenated_df = pd.concat(dataframes, axis=1)
     concatenated_df.reset_index(drop=True)
-    return concatenated_df.to_json(orient="columns")
-
+    return json.loads(concatenated_df.to_json(orient="columns"))
 
 # Example usage
 if __name__ == '__main__':
@@ -39,6 +38,7 @@ if __name__ == '__main__':
         "JPM", "BAC", "WFC", "C", "GS"          # Example tickers (Top banks)
         "T", "VZ", "TMUS", "S", "CCI",           # Example tickers (Telecom companies)
     ]
+    
     company_list = list(set(list(map(lambda ticker: getCompanyNameFromTicker(ticker), company_tickers))))
     data = getTrends(company_list)
     print(data)
