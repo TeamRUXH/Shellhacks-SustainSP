@@ -1,7 +1,7 @@
 export type SiteConfig = typeof siteConfig
 
 export const siteConfig = {
-  name: "Shellhacks Sustain",
+  name: "Shellhacks SustainSP",
   description:
     "Beautifully designed components built with Radix UI and Tailwind CSS.",
   mainNav: [
@@ -12,7 +12,7 @@ export const siteConfig = {
   ],
   links: {
     twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/TeamRUXH/Shellhacks-Sustain",
+    github: "https://github.com/TeamRUXH/Shellhacks-SustainSP",
     docs: "/dashboard",
   },
 }
