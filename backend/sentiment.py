@@ -26,7 +26,7 @@ def performSentimentalAnalysis(company_name = ''):
         data = response.json()
         
         # Perform sentiment analysis
-        sentiment_analysis = pipeline("sentiment-analysis")
+        sentiment_analysis = pipeline(model="finiteautomata/bertweet-base-sentiment-analysis")
         results = sentiment_analysis(list(map(lambda article: article['content'], data['articles'])))
         
         def formatObject(arg):
