@@ -21,7 +21,7 @@ Our primary goals for the Schonfeld Sustainability Challenge Project are as foll
 ## 🥷 Get Involved
 We welcome collaboration and input from the community as we work towards achieving our mission. If you are interested in contributing to our project or have valuable insights to share, please feel free to get involved. You can find more information on how to contribute in our Contribution Guidelines section.
 
-  
+##   
 We encourage you to explore these resources to stay updated on our progress, share your thoughts, and be part of our journey to promote sustainability in investment decisions.
 
 🌱 Let's work together to make a positive impact on the world of finance through sustainable investing!
