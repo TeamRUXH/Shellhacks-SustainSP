@@ -12,7 +12,7 @@ Our primary goals for the Schonfeld Sustainability Challenge Project are as foll
 
 **1. Data Analysis**: We will analyze stock data information from various sources by scraping data from different APIs, extracting valuable insights to evaluate the sustainability of companies in the S&P 500.
 
-**2.Sustainability Scales**: We will develop innovative sustainability scales that go beyond traditional metrics. These scales include sentimental analysis based on the company news, the company's ESG score, google trans, and volatility score, all these scales will encompass a wide range of factors that contribute to a company's sustainability, taking a holistic approach to measurement.
+**2.Sustainability Scales**: We will develop innovative sustainability scales that go beyond traditional metrics. These scales include sentimental analysis based on the company news, the company's ESG score, google trands, and volatility score, all these scales will encompass a wide range of factors that contribute to a company's sustainability, taking a holistic approach to measurement.
 
 **3.Dashboard Creation**: We will create an interactive dashboard that presents our findings in a user-friendly and visually appealing manner. This dashboard will allow Schonfeld's investment teams to easily view and understand the sustainability profiles of different stocks.
 
