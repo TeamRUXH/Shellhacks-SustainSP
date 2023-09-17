@@ -288,6 +288,25 @@ export default function Dashboard() {
   if (data.length == 0)
     return (
       <div style={{ display: "grid", placeItems: "center", height: "30rem" }}>
+        <svg
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill="#8884d8"
+            d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"
+          >
+            <animateTransform
+              attributeName="transform"
+              type="rotate"
+              dur="0.75s"
+              values="0 12 12;360 12 12"
+              repeatCount="indefinite"
+            />
+          </path>
+        </svg>
         <h1>Loading</h1>
       </div>
     )
@@ -296,7 +315,7 @@ export default function Dashboard() {
     <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
       <div className="container flex-col h-16 items-center space-x-4 sm:justify-between sm:space-x-0">
         <h1 className="text-3xl font-extrabold leading-tight tracking-tighter md:text-4xl">
-          S&P Sustainability Dashboard
+          S&P&nbsp; Sustainability&nbsp; Ranking
         </h1>
 
         <div className="pt-6">

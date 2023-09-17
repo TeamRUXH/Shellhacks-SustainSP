@@ -128,7 +128,25 @@ export default function TickerPage() {
   if (!data)
     return (
       <div style={{ display: "grid", placeItems: "center", height: "30rem" }}>
-        <h1>Loading</h1>
+        <svg
+          width="48"
+          height="48"
+          xmlns="http://www.w3.org/2000/svg"
+          style={{ transform: "scale(1.5)" }}
+        >
+          <path
+            fill="#8884d8"
+            d="M10.14,1.16a11,11,0,0,0-9,8.92A1.59,1.59,0,0,0,2.46,12,1.52,1.52,0,0,0,4.11,10.7a8,8,0,0,1,6.66-6.61A1.42,1.42,0,0,0,12,2.69h0A1.57,1.57,0,0,0,10.14,1.16Z"
+          >
+            <animateTransform
+              attributeName="transform"
+              type="rotate"
+              dur="0.75s"
+              values="0 12 12;360 12 12"
+              repeatCount="indefinite"
+            />
+          </path>
+        </svg>
       </div>
     )
 
@@ -182,7 +200,7 @@ export default function TickerPage() {
 
           <div
             className="flex flex-row"
-            style={{ justifyContent: "space-between", minHeight: "0rem" }}
+            style={{ justifyContent: "space-between", minHeight: "30rem" }}
           >
             <div
               className="flex flex-col"
