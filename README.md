@@ -1,4 +1,4 @@
-# Shellhacks-Sustain Project by Team RUXH 
+# Shellhacks-SustainSP Project by Team RUXH 
 👋 Welcome to the Schonfeld Sustainability Challenge Project Presented by Team RUXH - ShellHacks2023 in Miami!
 
 ## 🙋‍♀️ About Us
@@ -12,7 +12,7 @@ Our primary goals for the Schonfeld Sustainability Challenge Project are as foll
 
 **1. Data Analysis**: We will analyze stock data information from various sources by scraping data from different APIs, extracting valuable insights to evaluate the sustainability of companies in the S&P 500.
 
-**2.Sustainability Scales**: We will develop innovative sustainability scales that go beyond traditional metrics. These scales include sentimental analysis based on the company news, company's ESG score, google trans and volatility score, all these scales will encompass a wide range of factors that contribute to a company's sustainability, taking a holistic approach to measurement.
+**2.Sustainability Scales**: We will develop innovative sustainability scales that go beyond traditional metrics. These scales include sentimental analysis based on the company news, the company's ESG score, google trans, and volatility score, all these scales will encompass a wide range of factors that contribute to a company's sustainability, taking a holistic approach to measurement.
 
 **3.Dashboard Creation**: We will create an interactive dashboard that presents our findings in a user-friendly and visually appealing manner. This dashboard will allow Schonfeld's investment teams to easily view and understand the sustainability profiles of different stocks.
 
@@ -21,11 +21,6 @@ Our primary goals for the Schonfeld Sustainability Challenge Project are as foll
 ## 🥷 Get Involved
 We welcome collaboration and input from the community as we work towards achieving our mission. If you are interested in contributing to our project or have valuable insights to share, please feel free to get involved. You can find more information on how to contribute in our Contribution Guidelines section.
 
-## 👩‍💻 Useful Resources
-- **Documentation**: [Link to our project's documentation]
-- **Community Forum**: [Link to our community forum or discussion platform]
-- **Issue Tracker**: [Link to our issue tracker for bug reports and feature requests]
-- **Website**: [Link to our project's website, if applicable]
   
 We encourage you to explore these resources to stay updated on our progress, share your thoughts, and be part of our journey to promote sustainability in investment decisions.
 
